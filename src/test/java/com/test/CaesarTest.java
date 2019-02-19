@@ -10,10 +10,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class CaesarTest {
 
     @Test
-    public void isStringInLowerCase(){
+    public void whenStringUpperReturnFalseAndLowerReturnFalse(){
         EnglishCaesar unit = new EnglishCaesar();
 
-       assertTrue(unit.isLowerCase());
+        assertTrue(!unit.isLowerCase("KUGKJHGKG"));
+        assertTrue(unit.isLowerCase("ksjlhkfalkf"));
+
     }
 
 }

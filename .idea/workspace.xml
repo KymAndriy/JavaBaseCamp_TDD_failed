@@ -30,32 +30,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/CaesarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="228">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#455#456#0" expanded="true" />
                 <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/EnglishCaesar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="261">
+              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
               <folding>
                 <element signature="e#96#97#0" expanded="true" />
                 <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550606039292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550606868339" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -190,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CaesarTest">
+  <component name="RunManager" selected="JUnit.CaesarTest.testChangeChar">
     <configuration name="Caesar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test.Test.test" />
       <extension name="coverage">
@@ -221,8 +217,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CaesarTest.testChangeChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test.Test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.CaesarTest" />
+      <option name="METHOD_NAME" value="testChangeChar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CaesarTest.testChangeChar" />
         <item itemvalue="JUnit.CaesarTest" />
         <item itemvalue="JUnit.Caesar" />
       </list>
@@ -238,23 +251,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550597898084</updated>
-      <workItem from="1550597901034" duration="7896000" />
+      <workItem from="1550597901034" duration="8566000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CaesarTest - 2019.02.19 at 20h 56m 35s.xml">
-      <configuration name="CaesarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CaesarTest - 2019.02.19 at 21h 00m 17s.xml">
-      <configuration name="CaesarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CaesarTest - 2019.02.19 at 21h 15m 17s.xml">
-      <configuration name="CaesarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CaesarTest - 2019.02.19 at 21h 23m 55s.xml">
-      <configuration name="CaesarTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CaesarTest - 2019.02.19 at 21h 24m 08s.xml">
       <configuration name="CaesarTest" configurationId="JUnit" />
     </history-entry>
@@ -273,9 +274,21 @@
     <history-entry file="CaesarTest - 2019.02.19 at 21h 29m 27s.xml">
       <configuration name="CaesarTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CaesarTest - 2019.02.19 at 21h 54m 02s.xml">
+      <configuration name="CaesarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CaesarTest - 2019.02.19 at 22h 00m 06s.xml">
+      <configuration name="CaesarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CaesarTest - 2019.02.19 at 22h 01m 03s.xml">
+      <configuration name="CaesarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CaesarTest_testChangeChar - 2019.02.19 at 22h 01m 27s.xml">
+      <configuration name="CaesarTest.testChangeChar" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7896000" />
+    <option name="totallyTimeSpent" value="8566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -297,7 +310,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -346,29 +359,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/EnglishCaesar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/CaesarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="228">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#455#456#0" expanded="true" />
             <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/EnglishCaesar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
           </folding>
         </state>
       </provider>

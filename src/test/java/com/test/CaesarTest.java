@@ -33,6 +33,8 @@ public class CaesarTest {
     @Test
     public void testChangeChar(){
         assertEquals('i',unit.replaceChar('a', 9));
+        assertEquals('h',unit.replaceChar('z', 9));
+
     }
 
 }

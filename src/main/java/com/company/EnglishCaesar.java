@@ -28,6 +28,21 @@ public class EnglishCaesar {
     }
 
     public char replaceChar(char switchedChar, int power) {
+        int temp;
+        for(int i = 0; i < letter.length; i++){
+            if (letter[i] == switchedChar){
+
+                if((i+power-1) > 26){
+                    temp = i+power-27;
+                }
+                else {
+                    temp = i+power-1;
+                }
+//                if((letter.length-i) >= i)
+
+                return letter[temp];
+            }
+        }
         return '0';
     }
 }

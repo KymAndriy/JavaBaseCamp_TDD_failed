@@ -34,7 +34,12 @@ public class CaesarTest {
     public void testChangeChar(){
         assertEquals('i',unit.replaceChar('a', 9));
         assertEquals('h',unit.replaceChar('z', 9));
+//        assertEquals('i',unit.replaceChar('a', 400));
+    }
 
+    @Test
+    public void testIndex(){
+        assertEquals(14,unit.power(40));
     }
 
 }

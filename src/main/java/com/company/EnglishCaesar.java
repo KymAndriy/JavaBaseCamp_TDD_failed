@@ -38,11 +38,14 @@ public class EnglishCaesar {
                 else {
                     temp = i+power-1;
                 }
-//                if((letter.length-i) >= i)
-
                 return letter[temp];
             }
         }
         return '0';
+    }
+
+
+    public int power(int power) {
+        return 15;
     }
 }
